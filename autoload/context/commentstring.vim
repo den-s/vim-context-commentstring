@@ -17,6 +17,14 @@ let g:context#commentstring#table.html = {
 
 let g:context#commentstring#table.xhtml = g:context#commentstring#table.html
 
+let g:context#commentstring#table['javascript'] = {
+			\ 'jsComment' : '// %s',
+			\ 'jsImport' : '// %s',
+			\ 'jsxStatment' : '// %s',
+			\ 'jsxRegion' : '{/*%s*/}',
+			\ 'jsxTag' : '{/*%s*/}',
+
+			\}
 let g:context#commentstring#table['javascript.jsx'] = {
 			\ 'jsComment' : '// %s',
 			\ 'jsImport' : '// %s',
