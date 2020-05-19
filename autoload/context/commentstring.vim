@@ -21,16 +21,19 @@ let g:context#commentstring#table['javascript'] = {
 			\ 'jsComment' : '// %s',
 			\ 'jsImport' : '// %s',
 			\ 'jsxStatment' : '// %s',
+			\ 'jsxAttrib' : '// %s',
 			\ 'jsxRegion' : '{/*%s*/}',
 			\ 'jsxTag' : '{/*%s*/}',
-
+			\ 'jsxElement' : '{/*%s*/}',
 			\}
 let g:context#commentstring#table['javascript.jsx'] = {
 			\ 'jsComment' : '// %s',
 			\ 'jsImport' : '// %s',
 			\ 'jsxStatment' : '// %s',
+			\ 'jsxAttrib' : '// %s',
 			\ 'jsxRegion' : '{/*%s*/}',
 			\ 'jsxTag' : '{/*%s*/}',
+			\ 'jsxElement' : '{/*%s*/}',
 			\}
 
 let g:context#commentstring#table['typescript.jsx'] = {
