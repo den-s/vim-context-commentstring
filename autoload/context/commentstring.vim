@@ -22,9 +22,9 @@ let g:context#commentstring#table['javascript'] = {
 			\ 'jsImport' : '// %s',
 			\ 'jsxStatment' : '// %s',
 			\ 'jsxAttrib' : '// %s',
-			\ 'jsxRegion' : '{/* %s */}',
 			\ 'jsxTag' : '{/* %s */}',
 			\ 'jsxElement' : '{/* %s */}',
+      \ 'jsxCloseTag' : '{/* %s */}',
 			\}
 let g:context#commentstring#table['javascript.jsx'] = {
 			\ 'jsComment' : '// %s',
